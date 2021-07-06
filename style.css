@@ -1,0 +1,279 @@
+/************************************************************
+*                                                           *
+*                                                           *
+*                  Common CSS Goes Here                     *
+*                                                           *
+*                                                           *
+*************************************************************/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-section{
+    height: 670px;
+    width: 100%;
+    display: flex;
+}
+
+.section-half-div{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+
+.main-heading{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.dimgrey-color{
+    color: dimgrey;
+}
+
+.cornflowerblue-text{
+    color: cornflowerblue;
+}
+
+.section-half-div img{
+    width: 100%;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.section-half-paragraph{
+    color: dimgrey;
+    line-height: 2;
+    margin-bottom: 20%;
+}
+
+.section-half-links{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.center-align-texts {
+    padding: 50px 300px 10px;
+    text-align: center;
+    color: dimgrey;
+}
+
+/************************************************************
+*                                                           *
+*                                                           *
+*           Navigation Bar Menu CSS Goes Here               *
+*                                                           *
+*                                                           *
+*************************************************************/
+.navigation-bar-menu{
+    width: 100%;
+    height: 300px;
+    background-color: #efefef;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-bar-menu-logo img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    left: calc((100% - 200px) / 2);
+    z-index: 100000;
+}
+
+.navigation-bar-menu-list{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation-bar-menu-list li{
+    display: inline;
+    padding: 20px;
+}
+
+.navigation-bar-menu-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+/************************************************************
+*                                                           *
+*                                                           *
+*              Welcome Section CSS Goes Here                *
+*                                                           *
+*                                                           *
+*************************************************************/
+.welcome-section-full-text{
+    padding: 100px 10px;
+}
+
+.welcome-section-full-text .main-heading{
+    margin: 0;
+    line-height: 1.5;
+}
+
+#order-food{
+    background-image: linear-gradient(cornflowerblue, blueviolet);
+}
+
+/************************************************************
+*                                                           *
+*                                                           *
+*               About Me Section CSS Goes Here              *
+*                                                           *
+*                                                           *
+*************************************************************/
+#about-me-section{
+    background-image: url(images/about-me-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+#about-me-section-text{
+    padding: 100px 20px;
+}
+
+#about-me-paragraph{
+    color: black;
+}
+
+#contact-me{
+    background-image: linear-gradient(blueviolet, cornflowerblue);
+}
+
+/************************************************************
+*                                                           *
+*                                                           *
+*            My Reciepe Section CSS Goes Here               *
+*                                                           *
+*                                                           *
+*************************************************************/
+#my-recipe-section{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#my-recipe-section .section-half-paragraph{
+    margin-bottom: 0%;
+}
+
+.my-recipe-container{
+    padding: 2% 5%;
+    display: flex;
+}
+
+.my-recipe-container-div{
+    width: 30%;
+    height: 420px;
+    margin: 2.5%;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-recipe-container-div img{
+    width: 100%;
+}
+
+/************************************************************
+*                                                           *
+*                                                           *
+*           Special Dishes Section CSS Goes Here            *
+*                                                           *
+*                                                           *
+*************************************************************/
+#special-dishes-section{
+    height: 670px;
+    display: block;
+}
+
+#special-dishes-texts{
+    padding: 15px;   
+}
+
+#special-dishes-texts p{
+    margin-bottom: 0%;
+}
+
+.special-dishes-container{
+    width: 100%;
+    display: flex;
+}
+
+#special-dish-details{
+    border-radius: 0px;
+    background-image: linear-gradient(rgb(114, 114, 212), #306EFF);
+}
+
+.special-dishes .section-half-paragraph{
+    margin-bottom: 13%;
+}
+
+/************************************************************
+*                                                           *
+*                                                           *
+*             Social Media Section CSS Goes Here            *
+*                                                           *
+*                                                           *
+*************************************************************/
+.social-media-section{
+    width: auto;
+    border-radius: 25px;
+    margin: 10% 7.5% 7%;
+    text-align: center;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.social-media-divs{
+    width: 30%;
+    padding: 50px;
+}
+
+.social-media-divs h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/************************************************************
+*                                                           *
+*                                                           *
+*                 Footer Section CSS Goes Here              *
+*                                                           *
+*                                                           *
+*************************************************************/
+footer{
+    height: 250px;
+    padding: 0px;
+    bottom: 0px;
+    background-color:#000316;
+    text-align: center;
+}
+
+.footer-text{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-text h3{
+    font-size: 26px;
+    font-weight: 1000;
+}
+
+.gradient-text{
+    background: -webkit-linear-gradient(blueviolet, cornflowerblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
